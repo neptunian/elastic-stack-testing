@@ -15,3 +15,6 @@ xpack.reporting.capture.timeouts.openUrl: 60000
 map.proxyElasticMapsServiceInMaps: true
 xpack.reporting.capture.networkPolicy.rules: [ { "allow": true,"protocol": "http:" },{ "allow": false,"host": "via.placeholder.com" },{ "allow": true,"protocol": "https:" },{ "allow": true,"protocol": "data:" },{ "allow": false } ]
 xpack.data_enhanced.search.sessions.enabled: true
+# Specific monitoring configs for 7.12 https://github.com/elastic/kibana/blob/7.12/x-pack/test/functional/config.js#L93-L97
+monitoring.cluster_alerts.email_notifications.enabled: true
+monitoring.cluster_alerts.email_notifications.email_address: test@example.com
