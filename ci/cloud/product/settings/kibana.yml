@@ -20,3 +20,4 @@ xpack.reporting.csv.checkForFormulas: false
 xpack.reporting.csv.enablePanelActionDownload: true
 xpack.reporting.csv.maxSizeBytes: 2850
 xpack.reporting.queue.pollInterval: 3000
+xpack.reporting.roles.enabled: false
